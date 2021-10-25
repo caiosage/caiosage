@@ -1,0 +1,212 @@
+{
+	"id": "c2a84714-a3ad-41fd-a41f-195b862d41bf",
+	"name": "Trello API",
+	"timestamp": "2021-10-22T19:53:23.675Z",
+	"collection_id": "11643897-d3f8a6e2-5134-4b4a-8748-dfdaa43398ac",
+	"folder_id": 0,
+	"environment_id": "857123b5-acd3-4620-848c-5579a2661515",
+	"totalPass": 30,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "3739d10b-1504-4ab3-b830-70339640cdcf",
+			"name": "POST /boards",
+			"time": 271,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				611,
+				272,
+				288,
+				276,
+				271
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "9076a09a-b97c-4ee3-a650-50de673e5f60",
+			"name": "POST /lists",
+			"time": 227,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Your test name": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Your test name": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				213,
+				225,
+				218,
+				217,
+				227
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Your test name": true
+				},
+				{
+					"Status code is 200": true,
+					"Your test name": true
+				},
+				{
+					"Status code is 200": true,
+					"Your test name": true
+				},
+				{
+					"Status code is 200": true,
+					"Your test name": true
+				},
+				{
+					"Status code is 200": true,
+					"Your test name": true
+				}
+			]
+		},
+		{
+			"id": "376611a3-bec1-4dc7-ab34-d6f43817f75d",
+			"name": "POST /cards",
+			"time": 297,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 9,
+					"fail": 0
+				}
+			},
+			"times": [
+				259,
+				264,
+				276,
+				290,
+				297
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "242194b2-d4ce-45b5-bc31-7ce640a15a92",
+			"name": "DELETE /boards",
+			"time": 516,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				496,
+				512,
+				571,
+				485,
+				516
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 5,
+	"totalTime": 6784,
+	"collection": {
+		"requests": [
+			{
+				"id": "3739d10b-1504-4ab3-b830-70339640cdcf",
+				"method": "POST"
+			},
+			{
+				"id": "9076a09a-b97c-4ee3-a650-50de673e5f60",
+				"method": "POST"
+			},
+			{
+				"id": "376611a3-bec1-4dc7-ab34-d6f43817f75d",
+				"method": "POST"
+			},
+			{
+				"id": "242194b2-d4ce-45b5-bc31-7ce640a15a92",
+				"method": "DELETE"
+			}
+		]
+	}
+}
